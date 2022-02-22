@@ -1,0 +1,6 @@
+.github/
+test/
+docs/
+screenshot/
+.nyc_output/
+.eslintrc.json
