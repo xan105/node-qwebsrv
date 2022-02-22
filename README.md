@@ -21,9 +21,10 @@ Here are the default options:
   "config": {
     "host": "localhost",
     "port": 80,
-    "proxy": false, //set to true only if you're behind a reverse proxy (Heroku, Bluemix, AWS ELB, Nginx, etc)
+    "proxy": false, /*set to true only if you're behind a reverse proxy 
+                     (Heroku, Bluemix, AWS ELB, Nginx, etc)*/
     "cors": true,
-    "root": "./docs",
+    "root": "./docs", //GitHub Pages
     "index": ["index.html"], 
     "etag": false,
     "maxAge": "1m"
@@ -41,6 +42,6 @@ Example:
 {
   "scripts": {
     "start": "websrv"
-  },
+  }
 }
 ```
