@@ -1,6 +1,6 @@
 {
   "name": "@xan105/qwebsrv",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Quick web server for easy dev with static files and modern web browser and their pseudo security limitation",
   "type": "module",
   "exports": "./lib/index.js",
@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/xan105/node-qwebsrv#readme",
   "dependencies": {
-    "@xan105/is": "^2.2.0",
+    "@xan105/is": "^2.4.0",
     "@xan105/log": "^2.0.1",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
