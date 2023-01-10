@@ -24,6 +24,7 @@ Here are the default options:
     "proxy": false, /*set to true only if you're behind a reverse proxy 
                      (Heroku, Bluemix, AWS ELB, Nginx, etc)*/
     "cors": true,
+    "csp": false, //default secure csp header rules
     "root": "./docs", //GitHub Pages
     "index": ["index.html"], 
     "etag": false,
