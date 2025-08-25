@@ -26,7 +26,8 @@ Here are the default options:
     "cors": true,
     "csp": false, //default secure csp header rules
     "root": "./docs", //GitHub Pages
-    "index": ["index.html"],
+    "index": "index.html",
+    "spa": false,
     "404": "404.html", 
     "etag": false,
     "maxAge": "1m"
